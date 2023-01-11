@@ -1,1 +1,1 @@
-# basic-course
+# Basic course
