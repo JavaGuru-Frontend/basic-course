@@ -25,7 +25,6 @@ btn.addEventListener('click', function(){
     temp.innerHTML = `Temperature: <span>${ toCelcius(tempature)} C</span>`
     description.innerHTML = `Sky Conditions: <span>${descrip}<span>`
     wind.innerHTML = `Wind Speed: <span>${wndspd} km/h<span>`
-
   })
 
   .catch(err => alert('You entered Wrong city name'))

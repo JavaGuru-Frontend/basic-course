@@ -1,5 +1,6 @@
 // TODO app
 // Скорировать данные исходники в свою папку
+// Добавить свои стили по желанию
 // Посмотреть видео appDemo.mp4 что бы понять как работает апликация
 
 /* Нам небходимо создать приложение которое может создавать, удалять и отмечать задание как сделанное
@@ -44,22 +45,3 @@ const tasks     = JSON.parse(localStorage.getItem('taskList')) || [];
 
 // addEventListener click 
 // addEventListener submit
-
-
-
-renderTask();
-
-function addTask(){
-
-}
-
-function saveToLocalStorage() {
-
-}
-
-function renderTask() {
-
-}
-
-function toggleDone(e) {
-}
